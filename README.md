@@ -1,12 +1,12 @@
 
-# Locket Camera API
+# 📸 Locket Camera API
 
-## Giới thiệu
+## 🚀 Giới thiệu
 Đây là tập hợp các API để tương tác với Locket Camera. Dưới đây là danh sách các API và hướng dẫn sử dụng chi tiết.
 
-## Danh sách API
+## 📜 Danh sách API
 
-### 1. getLastMoment
+### 1. 🕰️ getLastMoment
 **Mô tả:** Lấy thông tin về các khoảnh khắc mới nhất.
 
 - **URL:** `https://api.locketcamera.com/getLatestMomentV2`
@@ -29,7 +29,7 @@
   }
   ```
 
-### 2. changeProfileInfo
+### 2. 📝 changeProfileInfo
 **Mô tả:** Thay đổi thông tin hồ sơ của người dùng.
 
 - **URL:** `https://api.locketcamera.com/changeProfileInfo`
@@ -55,7 +55,7 @@
   }
   ```
 
-### 3. updateEmailAddress
+### 3. 📧 updateEmailAddress
 **Mô tả:** Cập nhật địa chỉ email của người dùng.
 
 - **URL:** `https://api.locketcamera.com/updateEmailAddress`
@@ -72,7 +72,7 @@
   }
   ```
 
-### 4. sendVerificationCode
+### 4. 📱 sendVerificationCode
 **Mô tả:** Gửi mã xác minh để thay đổi số điện thoại.
 
 - **URL:** `https://api.locketcamera.com/sendVerificationCode`
@@ -92,7 +92,7 @@
   }
   ```
 
-### 5. sendChatMessageV2
+### 5. 💬 sendChatMessageV2
 **Mô tả:** Gửi tin nhắn tới người dùng khác.
 
 - **URL:** `https://api.locketcamera.com/sendChatMessageV2`
@@ -113,7 +113,7 @@
   }
   ```
 
-### 6. createAccountWithEmailPassword
+### 6. 🆕 createAccountWithEmailPassword
 **Mô tả:** Tạo tài khoản mới.
 
 - **URL:** `https://api.locketcamera.com/createAccountWithEmailPassword`
@@ -134,7 +134,7 @@
   }
   ```
 
-### 7. deleteUserAccount
+### 7. 🗑️ deleteUserAccount
 **Mô tả:** Xóa tài khoản người dùng.
 
 - **URL:** `https://api.locketcamera.com/deleteUserAccount`
@@ -144,7 +144,7 @@
   - `X-Firebase-AppCheck: [appCheckToken]`
 - **Phản hồi:** Xác nhận tài khoản người dùng đã được xóa thành công.
 
-## Hướng dẫn bắt API
+## 🛠️ Hướng dẫn bắt API
 1. Tải về và cài đặt [HTTP Toolkit](https://httptoolkit.tech/) trên máy tính.
 2. Kết nối điện thoại với cùng mạng Wi-Fi mà máy tính đang kết nối.
 3. Trên điện thoại, vào phần cài đặt Wi-Fi, chọn mạng Wi-Fi đang kết nối, chỉnh proxy thành địa chỉ IP cục bộ (local IP) của máy tính và đặt port là `8000`.
